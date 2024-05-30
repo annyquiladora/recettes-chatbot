@@ -1,8 +1,8 @@
 # Node
 /node_modules
 npm-debug.log
-
-
+.env
+C:\Users\anny.barrero-duarte\gorditos-recipe\principal-lane-423410-p3-47760941546b.json
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json
