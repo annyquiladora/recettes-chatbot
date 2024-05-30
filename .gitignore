@@ -1,8 +1,12 @@
 # Node
 /node_modules
 npm-debug.log
+# Ignorer le fichier .env
 .env
-C:\Users\anny.barrero-duarte\gorditos-recipe\principal-lane-423410-p3-47760941546b.json
+
+# Ignorer le fichier JSON
+C:/Users/anny.barrero-duarte/gorditos-recipe/principal-lane-423410-p3-47760941546b.json
+
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json
