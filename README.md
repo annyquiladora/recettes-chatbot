@@ -86,7 +86,7 @@ Liste des fonctionnalités offertes
 Génération de recettes : Utilise l'IA générative pour suggérer des recettes en fonction des ingrédients.
 Validation des ingrédients : Vérifie que les termes fournis sont des ingrédients valides avant de générer les recettes.
 
-###*Comment l’utiliser ?
+### Comment l’utiliser ?
 
 Installation :
 
