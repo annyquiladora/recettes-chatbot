@@ -1,39 +1,56 @@
-1. Schéma d’architecture du projet
+### 1. Schéma d’architecture du projet
+
 +-----------------------+
-|      Client (Postman) |
+                         
+| Client (Postman) |     
 +-----------+-----------+
-            |
-            v
+|
+v                                               
 +-----------------------+
-|        Express        |
-|       (Node.js)       |
+                         
+| Express |                 
+| (Node.js) |           
 +-----------+-----------+
-            |
-            v
+|                                         
+v                                                 
 +-----------------------+
-|  Contrôleurs (src/controllers) |
-|  - recipesController.js        |
+                           
+| Contrôleurs (src/controllers) |
+
+| - recipesController.js |
+
 +-----------+-----------+
-            |
-            v
+|                      
+v                      
 +-----------------------+
-|    Modèles (src/models)         |
-|   (Pas utilisé actuellement)   |
+                           
+| Modèles (src/models) |
+
+| (Pas utilisé actuellement) |
+
 +-----------+-----------+
-            |
-            v
+|                      
+v                      
 +-----------------------+
-|    Routes (src/routers)         |
-|   - recipes.js                 |
+                          
+| Routes (src/routers) |
+
+| - recipes.js |
+
 +-----------+-----------+
-            |
-            v
+                         
+|                      
+v            
+
 +-----------------------+
-|    Google Vertex AI    |
-|  (Generative Language) |
+                         
+| Google Vertex AI |
+
+| (Generative Language) |
+
 +-----------------------+
 
-2. Liste des fonctionnalités offertes par votre API
+### 2. Liste des fonctionnalités offertes par votre API
 Génération de recettes en fonction des ingrédients fournis.
 Vérification que les termes fournis sont des ingrédients culinaires valides.
 Retour d'un message d'erreur si les termes ne sont pas des ingrédients culinaires.
@@ -56,11 +73,11 @@ Réponse d'erreur :
   "message": "Please provide valid cooking ingredients."
 }
 
-Documentation fonctionnelle
-Quelle est votre application ?
+### Documentation fonctionnelle
+### Quelle est votre application ?
 L'application "Gorditos-Recipe" est une API qui utilise Google Vertex AI pour générer des recettes basées sur les ingrédients fournis par l'utilisateur.
 
-Que permet de faire l’application ?
+### Que permet de faire l’application ?
 L'application permet de :
 
 Générer des recettes à partir d'une liste d'ingrédients fournis par l'utilisateur.
@@ -69,7 +86,7 @@ Liste des fonctionnalités offertes
 Génération de recettes : Utilise l'IA générative pour suggérer des recettes en fonction des ingrédients.
 Validation des ingrédients : Vérifie que les termes fournis sont des ingrédients valides avant de générer les recettes.
 
-*Comment l’utiliser ?
+###*Comment l’utiliser ?
 
 Installation :
 
